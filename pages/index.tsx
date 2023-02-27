@@ -14,7 +14,7 @@ export default function Home({posts}){
   <div className="lg:col-span-8 col-span-1">
   {posts.map((post, index) =>(    <PostCard post={post.node} key={post.title} />))}
   </div>
-  <div className="lg:col-san-4 col-span-1">
+  <div className="lg:col-span-4 col-span-1">
 <div className="lg:sticky relative top-8">
 <PostWidget />
 <Categories />
